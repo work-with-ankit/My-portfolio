@@ -27,13 +27,13 @@ function Portfolio() {
        image: 'https://c8.alamy.com/comp/2J7FD8R/event-management-creation-and-development-personal-and-corporate-events-2J7FD8R.jpg',
       title: 'Event-Management',
       main: 'A real-time event management app built with MERN stack & Socket.IO, allowing users to create, manage, and join events seamlessly. Features JWT authentication, Cloudinary image hosting, and a responsive UI for a smooth experience.',
-      sourceCodeDownload: 'https://example.com/project-two.zip' 
+      sourceCodeDownload: 'https://github.com/work-with-ankit/MERN_STACK_EVENT_PROJECT' 
     },
     {
       image: 'https://i.pinimg.com/originals/e2/a6/6c/e2a66cd4a51769e546fa8389f4d7f4d9.jpg',
      title: 'My-Portfolio',
      main: '"My personal portfolio, crafted with Tailwind CSS and JavaScript, highlighting my projects, skills, and expertise in frontend development.',
-     sourceCodeDownload: 'https://example.com/project-two.zip' 
+     sourceCodeDownload: 'https://github.com/work-with-ankit/My-portfolio' 
    },
     
   ];

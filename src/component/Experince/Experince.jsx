@@ -54,76 +54,81 @@ function Experince() {
           </span>
         </div>
         <div>
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
-            {/* <FcGoogle color="#4285f4" size={50} /> */}
-            <img
-        src={ainwiklogo}
-        alt="Ainwik Logo"
-        style={{
-          width: "60px", 
-          height: "60px", 
-          background:"blue",
-          borderRadius: "44px"
-        }}
-      />
-            <span className="text-white">
-              <h2>JAVA FULL,STACK-DEVELOPER</h2>
-              <p className="text-sm leading-tight font-thin">
-                March-2023-To-January-2024 
-              </p>
-              <ul className="text-sm p-2">
-                <li> Java Full stack Training </li>
-                <li></li>
-              </ul>
-            </span>
-          </div>
+        <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center 
+                transition-all duration-300 hover:shadow-[0px_0px_20px_rgba(255,0,0,0.6)] hover:scale-105">
+  <img
+    src={ainwiklogo}
+    alt="Ainwik Logo"
+    style={{
+      width: "60px",
+      height: "60px",
+      background: "blue",
+      borderRadius: "44px",
+      transition: "transform 0.3s ease-in-out",
+    }}
+    className="hover:rotate-6"
+  />
+  <span className="text-white">
+    <h2 className="text-lg font-semibold">JAVA FULL STACK DEVELOPER</h2>
+    <p className="text-sm leading-tight font-thin">March 2023 - January 2024</p>
+    <ul className="text-sm p-2">
+      <li> Java Full Stack Training </li>
+    </ul>
+  </span>
+</div>
 
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
-            {/* <RiNetflixFill color="#4285f4" size={50} /> */}
-            <img
-        src={ainwiklogo}
-        alt="Ainwik Logo"
-        style={{
-          width: "60px", 
-          height: "60px", 
-          background:"blue",
-          borderRadius: "44px"
-        }}
-      />
-            <span className="text-white">
-              <h2>MERN STACK-DEVELOPER</h2>
-              <p className="text-sm leading-tight font-thin">
-                 February-2024-TO-JULY-2024
-              </p>
-              <ul className="text-sm p-2">
-                <li>Mern Full stack Training</li>
-                <li></li>
-              </ul>
-            </span>
-          </div>
 
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
-          <img
-        src={ainwiklogo}
-        alt="Ainwik Logo"
-        style={{
-          width: "50px", 
-          height: "50px", 
-          background:"blue",
-          borderRadius: "44px"
-        }}
-      />
-            <span className="text-white">
-              <h2>EX-INTERN</h2>
-              <p className="text-sm leading-tight font-thin">
-                August-2024 To Nav-2024
-              </p>
-              <ul className="text-sm p-2">
-                <li>Work as a  full stack Developer</li>
-                <li>Team-Leader of frontend</li>
-              </ul>
-            </span>
-          </div>
+
+
+<div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center 
+                transition-all duration-300 hover:shadow-[0px_0px_20px_rgba(255,0,0,0.6)] hover:scale-105">
+  {/* <RiNetflixFill color="#4285f4" size={50} /> */}
+  <img
+    src={ainwiklogo}
+    alt="Ainwik Logo"
+    style={{
+      width: "60px",
+      height: "60px",
+      background: "blue",
+      borderRadius: "44px",
+      transition: "transform 0.3s ease-in-out",
+    }}
+    className="hover:rotate-6"
+  />
+  <span className="text-white">
+    <h2 className="text-lg font-semibold">MERN STACK DEVELOPER</h2>
+    <p className="text-sm leading-tight font-thin">February 2024 - July 2024</p>
+    <ul className="text-sm p-2">
+      <li>MERN Full Stack Training</li>
+    </ul>
+  </span>
+</div>
+
+
+<div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center 
+                transition-all duration-300 hover:shadow-[0px_0px_20px_rgba(255,0,0,0.6)] hover:scale-105">
+  <img
+    src={ainwiklogo}
+    alt="Ainwik Logo"
+    style={{
+      width: "50px",
+      height: "50px",
+      background: "blue",
+      borderRadius: "44px",
+      transition: "transform 0.3s ease-in-out",
+    }}
+    className="hover:rotate-6"
+  />
+  <span className="text-white">
+    <h2 className="text-lg font-semibold">EX-INTERN</h2>
+    <p className="text-sm leading-tight font-thin">August 2024 - Nov 2024</p>
+    <ul className="text-sm p-2">
+      <li>Worked as a Full Stack Developer</li>
+      <li>Team Leader of Frontend</li>
+    </ul>
+  </span>
+</div>
+
         </div>
       </div>
     </div>
